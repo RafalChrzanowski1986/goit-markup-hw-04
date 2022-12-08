@@ -315,6 +315,24 @@ ul {
 .portfolio-buttons{
   margin-bottom: 50;
 }
+
+.social-media-icon li {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--social-media-icon);
+}
+
+.social-media-icon li:hover,
+.social-media-icon li:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
+  cursor: pointer;
+}
+
 /*=====END MAIN=====*/
 /*=====FOOTER=======*/
 .footer {
