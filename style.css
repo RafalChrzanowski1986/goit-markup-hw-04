@@ -146,6 +146,11 @@ ul {
   margin: 0;
   color: #ffffff;
 }
+.contact-icons:hover,
+.contact-icons:focus {
+  color: #2196f3;
+}
+
 
 .contact:hover,
 .contact:focus {
@@ -162,6 +167,14 @@ ul {
   background: #2f303a;
   max-width: 1600px;
   margin: 0 auto;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+),
+url(../images/banner-image.jpg);
+background-color: var(--background-firs-color);
+background-size: cover;
+background-repeat: no-repeat;
 }
 .upper {
   font-weight: 900;
@@ -390,6 +403,7 @@ margin: 10px;
   background-color: #2f303a;
   width: 100%;
   padding: 60px 0px;
+  margin-top: 94px;
 }
 
 .footer-address li:not(:last-child) {
