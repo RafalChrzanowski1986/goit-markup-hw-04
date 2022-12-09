@@ -326,6 +326,12 @@ ul {
   fill: var(--social-media-icon);
 }
 
+.our-team-icon li:hover,
+.our-team-icon li:focus {
+    background-color: #2196f3;
+    fill: #ffffff;
+    cursor: pointer;
+}
 
 .clients h2 {
   font-size: 36px;
