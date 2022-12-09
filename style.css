@@ -333,6 +333,13 @@ ul {
     cursor: pointer;
 }
 
+
+.social-media-list
+{
+margin: 10px;
+}
+
+
 .clients h2 {
   font-size: 36px;
   font-weight: 700;
