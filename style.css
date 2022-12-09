@@ -8,6 +8,7 @@
   --main-font-size: 14px;
   --letter-spacing: 0.03em;
   --letter-spacing-big: 0.06em;
+  --social-media-icon: #afb1b8;
 }
 body {
   font-family: "Roboto", sans-serif;
