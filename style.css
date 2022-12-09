@@ -112,6 +112,12 @@ ul {
   line-height: 1.17;
 
 }
+
+.contact a:hover,
+.contact a:focus {
+    color: #2196f3;
+    fill: #2196f3;
+}
 .navigation .link-list a {
   align-items: center;
   text-decoration: none;
@@ -146,10 +152,7 @@ ul {
   color: #ffffff;
 }
 
-.contact:hover,
-.contact:focus {
-  color: #2196f3;
-}
+
 /*=====END HEADER=====*/
 
 /*=====MAIN=====*/
@@ -213,6 +216,23 @@ ul {
   justify-content: center;
   gap: 8px;
   
+}
+
+.list-workers {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #757575;
+  list-style-type: none;
+  justify-content: center;
+  gap: 8px;
+  background: #FFFFFF;
+
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 
 .text{
