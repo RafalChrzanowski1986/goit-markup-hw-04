@@ -315,6 +315,61 @@ ul {
 .portfolio-buttons{
   margin-bottom: 50;
 }
+
+.social-media-icon{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--social-media-icon);
+}
+
+
+.clients h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--main-color);
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.clients-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.clients-list li {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--logo-client-color);
+  fill: var(--logo-client-color);
+}
+
+.oclients-list li:hover,
+.clients-list li:active {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
+  cursor: pointer;
+}
+
+.clients-list li:focus,
+.clients-list li:active {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
+  cursor: pointer;
+}
+
+
 /*=====END MAIN=====*/
 /*=====FOOTER=======*/
 .footer {
