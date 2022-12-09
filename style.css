@@ -326,8 +326,8 @@ ul {
   fill: var(--social-media-icon);
 }
 
-.our-team-icon li:hover,
-.our-team-icon li:focus {
+.social-media-icon li:hover,
+.social-media-icon li:focus {
     background-color: #2196f3;
     fill: #ffffff;
     cursor: pointer;
@@ -361,7 +361,7 @@ ul {
   fill: var(--logo-client-color);
 }
 
-.oclients-list li:hover,
+.clients-list li:hover,
 .clients-list li:active {
   border: 1px solid #2196f3;
   fill: #2196f3;
