@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link href="style.css" rel="stylesheet"/>
- <link<link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
-  <body> 
-
+  <body>
     <header class="header">
      <div class="container navbar-wrapper">
    
@@ -25,10 +24,24 @@
             <li><a href="#">Kontakt</a></li>
            </ul>
            </nav>
-         
-           <div class="contact-wrapper">
-           <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-           <a class="contact" href="tel:+48111111111">+48111111111</a>
+
+         <div class="contact-wrapper">
+             <div class="contact-item">
+                 <svg width="16" height="12">
+                     <use href="images/icons.svg#icon-envelope"></use>
+                 </svg>
+                 <a class="header-contact-link" href="mailto:info@devstudio.com">
+                     info@devstudio.com
+                 </a>
+             </div>
+             <div class="contact-item">
+                 <svg width="10px" height="16">
+                     <use href="images/icons.svg#icon-smartphone"></use>
+                 </svg>
+                 <a class="header-contact-link" href="tel:+48111111111">
+                     +48111111111
+                 </a>
+             </div>
          </div>
          </div>
      </header>
@@ -50,8 +63,7 @@
         <div class="container">
           <ul class="list-portfolio-brands">
             
-              <li>
-                
+              <li class="list-item">
             <img
               src="images/img2-1.jpg"
               alt="website photo"
@@ -65,7 +77,7 @@
             <h4 class="name-brand">Technocrack</h4>
           <span class="list-portfolio">Strona internetowa</span> 
         </div></li>
-        <li>
+        <li class="list-item">
       
        
             <img
@@ -80,7 +92,7 @@
           
           </div>
         </li>
-          <li>
+          <li class="list-item">
              
           
             <img
@@ -95,7 +107,7 @@
           </div>
           </li>
           
-            <li>
+            <li class="list-item">
             
               
             <img
@@ -109,7 +121,7 @@
           
         </div>
         </li>
-        <li>
+        <li class="list-item">
           
           
             <img
@@ -123,7 +135,7 @@
           
           </div>
         </li>
-        <li>
+        <li class="list-item">
         <div>
           
             <img
@@ -138,7 +150,7 @@
           </div>
         </li> 
           
-            <li>
+            <li class="list-item">
             
             <img
               src="images/img2-7.jpg"
@@ -151,10 +163,7 @@
           
         </div>
             </li>
-        <li>
-            
-         
-            
+        <li class="list-item">
             <img
               src="images/img2-8.jpg"
               alt="thicket"
@@ -165,7 +174,7 @@
             <span class="list-portfolio">Marketing</span>
           </div></li>
        
-          <li>
+          <li class="list-item">
             <img
               src="images/img2-9.jpg"
               alt="personal computer"
@@ -181,22 +190,20 @@
 </main>
 
     
-<footer class="footer-portfolio">
-       
-</div>
-  <div class="container">
-    
-      <a href="index.html" class="navigation_logo"> <span class="web">Web</span
-        ><span class="studio2">Studio</span></a>
-   
-    <address class="footer-address"><ul><li>m.Warszawa, Aleje Jerozolimskie 21</li>
-      <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-   
-    <li><a class="contact"  href="tel:+48111111111">+48111111111</a></li></ul>
-    </address>
-  
-    
-  
-</footer>
-</div>
+    <footer class="footer-portfolio">
+      <div class="container">
+
+          <a href="index.html" class="navigation_logo"> <span class="web">Web</span
+            ><span class="studio2">Studio</span></a>
+
+        <address class="footer-address"><ul><li>m.Warszawa, Aleje Jerozolimskie 21</li>
+          <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+
+        <li><a class="contact-link"  href="tel:+48111111111">+48111111111</a></li></ul>
+        </address>
+      </div>
+    </footer>
+</body>
 </html>
+
+	
