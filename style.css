@@ -459,12 +459,13 @@ ul {
 .join-us{
   color: #FFFFFF;
   line-height: 1.17;
-  margin-left: 171px;
+  margin-left: 531px;
+  margin-top: 72px;
   }
 
 .foot-icons{
 display: flex;
-margin-left: 171px;
+margin-left: 531px;
 }
 
 /*=====END FOOTER=======*/
@@ -472,7 +473,7 @@ margin-left: 171px;
 
 /*========PORTFOLIO=====*/
 
-.sectio{
+.section{
   margin-top: 94px;
 }
 
