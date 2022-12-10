@@ -455,6 +455,18 @@ ul {
 .footer-address{
   margin-top: 20px;
 }
+
+.join-us{
+  color: #FFFFFF;
+  line-height: 1.17;
+  margin-left: 171px;
+  }
+
+.foot-icons{
+display: flex;
+margin-left: 171px;
+}
+
 /*=====END FOOTER=======*/
 
 
